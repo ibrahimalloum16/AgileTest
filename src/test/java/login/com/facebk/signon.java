@@ -3,6 +3,7 @@ package login.com.facebk;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -23,7 +24,9 @@ public void signOn() {
 	driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("gatyh");
 	driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("43678");
 	boolean r=driver.findElement(By.xpath("//*[@id=\"u_0_4\"]")).isEnabled();
-System.out.println(r);
+    System.out.println(r);
+    
+    Assert.assertEquals(r, true);
 }
 }
 

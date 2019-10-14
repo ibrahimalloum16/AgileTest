@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27860" started-at="2019-10-14T02:04:57 EDT" finished-at="2019-10-14T02:05:25 EDT">
+  <suite name="Default suite" duration-ms="19255" started-at="2019-10-14T02:53:12 EDT" finished-at="2019-10-14T02:53:31 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27860" started-at="2019-10-14T02:04:57 EDT" finished-at="2019-10-14T02:05:25 EDT">
+    <test name="Default test" duration-ms="19255" started-at="2019-10-14T02:53:12 EDT" finished-at="2019-10-14T02:53:31 EDT">
       <class name="login.com.facebk.signon">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:login.com.facebk.signon@627551fb]" name="openBrowser" is-config="true" duration-ms="25345" started-at="2019-10-14T02:04:57 EDT" finished-at="2019-10-14T02:05:23 EDT">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:login.com.facebk.signon@627551fb]" name="openBrowser" is-config="true" duration-ms="18019" started-at="2019-10-14T02:53:12 EDT" finished-at="2019-10-14T02:53:30 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="signOn()[pri:0, instance:login.com.facebk.signon@627551fb]" name="signOn" duration-ms="2398" started-at="2019-10-14T02:05:23 EDT" finished-at="2019-10-14T02:05:25 EDT">
+        <test-method status="PASS" signature="signOn()[pri:0, instance:login.com.facebk.signon@627551fb]" name="signOn" duration-ms="1154" started-at="2019-10-14T02:53:30 EDT" finished-at="2019-10-14T02:53:31 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signOn -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:login.com.facebk.signon@627551fb]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-10-14T02:05:25 EDT" finished-at="2019-10-14T02:05:25 EDT">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:login.com.facebk.signon@627551fb]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-10-14T02:53:31 EDT" finished-at="2019-10-14T02:53:31 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
